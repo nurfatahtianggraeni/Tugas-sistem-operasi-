@@ -1,0 +1,21 @@
+Welcome to Cloud Shell! Type "help" to get started.
+
+To set your Cloud Platform project in this session use "gcloud config set project [PROJECT_ID]"
+
+nurfatahtianggraeni@cloudshell:~$ cd tugas_sistem_operasi
+
+nurfatahtianggraeni@cloudshell:~/tugas_sistem_operasis touch info_system.sh
+
+nurfatahtianggraeni@cloudshell:~/tugas_sistem_operasi$ nano info_system.sh
+
+nurfatahtianggraeni@cloudshell:~/tugas_sistem_operasi$ cat info_system.sh
+
+#!/bin/bash
+
+echo "waktu saat ini: $(date)"
+
+echo "nama pengguna yang sedang login: $(whoami)"
+
+echo "total penggunaan disk: $(dfhtotal | grep total"
+
+nurfatahtianggraeni@cloudshell:~/tugas_sistem_operasi$
